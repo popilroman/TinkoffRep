@@ -1,4 +1,4 @@
-package app;
+package ru.tinkoff.edu.java.bot;
 
 import ru.tinkoff.edu.java.bot.configuration.*;
 import org.springframework.boot.SpringApplication;
