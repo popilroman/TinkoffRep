@@ -1,6 +1,6 @@
 package app;
 
-import configuration.*;
+import ru.tinkoff.edu.java.scrapper.configuration.*;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
