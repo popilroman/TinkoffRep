@@ -1,5 +1,4 @@
 ru\tinkoff\edu\java\bot\configuration\ApplicationConfig.class
 META-INF\spring.components
-com\tinkoff\project\App.class
 ru\tinkoff\edu\java\bot\BotApplication.class
 META-INF\spring-configuration-metadata.json
