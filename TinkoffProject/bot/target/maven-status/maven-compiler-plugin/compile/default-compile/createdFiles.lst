@@ -1,6 +1,5 @@
 ru\tinkoff\edu\java\bot\configuration\ApplicationConfig.class
 com\tinkoff\project\dto\BotResponse.class
-com\tinkoff\project\ExceptionControllerAdvice.class
 META-INF\spring.components
 ru\tinkoff\edu\java\bot\BotApplication.class
 META-INF\spring-configuration-metadata.json

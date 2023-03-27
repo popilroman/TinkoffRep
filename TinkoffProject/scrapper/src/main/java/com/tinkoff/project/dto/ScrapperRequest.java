@@ -1,5 +1,9 @@
 package com.tinkoff.project.dto;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class ScrapperRequest {
 
     private String url;

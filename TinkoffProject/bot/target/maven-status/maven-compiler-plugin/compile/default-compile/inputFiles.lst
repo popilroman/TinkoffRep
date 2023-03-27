@@ -1,6 +1,6 @@
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\com\tinkoff\project\BotController.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\BotApplication.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\configuration\ApplicationConfig.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\com\tinkoff\project\ExceptionControllerAdvice.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\com\tinkoff\project\controller\ExceptionControllerAdvice.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\com\tinkoff\project\controller\BotController.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\com\tinkoff\project\dto\BotRequest.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\com\tinkoff\project\dto\BotResponse.java
