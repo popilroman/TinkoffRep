@@ -1,6 +1,8 @@
 package ru.tinkoff.edu.java.bot;
 
 import com.tinkoff.project.dto.*;
+import com.tinkoff.project.controller.ExceptionControllerAdvice;
+
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -15,7 +17,7 @@ public class BotController {
         return new BotDTO(dataClass.getId(), dataClass.getUrl(), dataClass.getDescription(), dataClass.getTgChatIds());
     }
 
-
+    @ExceptionHandler(MethodArgumentNotValidException.class)
     @ResponseStatus(code = HttpStatus.BAD_REQUEST)
     public NullBotDTO handleException(MethodArgumentNotValidException e){
         return new NullBotDTO("Некорректные параметры запроса", e.getStatusCode().toString(), e.getObjectName(), e.getLocalizedMessage(), new String[]{String.valueOf(e.getStackTrace())});
