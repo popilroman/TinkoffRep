@@ -1,6 +1,10 @@
 ru\tinkoff\edu\java\bot\configuration\ApplicationConfig.class
-com\tinkoff\project\dto\BotResponse.class
 META-INF\spring.components
-ru\tinkoff\edu\java\bot\BotApplication.class
+ru\tinkoff\edu\java\bot\configuration\SwaggerUiConfiguration.class
 META-INF\spring-configuration-metadata.json
+com\tinkoff\project\dto\BotResponse.class
+com\tinkoff\project\dto\BotDTO.class
+com\tinkoff\project\dto\NullBotDTO.class
+ru\tinkoff\edu\java\bot\BotApplication.class
 com\tinkoff\project\dto\BotRequest.class
+ru\tinkoff\edu\java\bot\configuration\HomeController.class
