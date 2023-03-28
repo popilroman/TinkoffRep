@@ -1,4 +1,4 @@
-package com.tinkoff.project.controller;
+package ru.tinkoff.edu.java.bot.controller;
 
 import com.tinkoff.project.dto.NullBotDTO;
 import org.springframework.http.HttpStatus;

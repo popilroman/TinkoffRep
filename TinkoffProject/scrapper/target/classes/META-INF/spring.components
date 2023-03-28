@@ -1,6 +1,6 @@
 com.tinkoff.project.clients.GitHubClientImpl=org.springframework.stereotype.Component
 com.tinkoff.project.clients.StackOverflowClientImpl=org.springframework.stereotype.Component
 com.tinkoff.project.clients.configuration.ClientConfiguration=org.springframework.stereotype.Component
-com.tinkoff.project.controller.ScrapperController=org.springframework.stereotype.Component
 ru.tinkoff.edu.java.scrapper.ScrapperApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+ru.tinkoff.edu.java.scrapper.ScrapperController=org.springframework.stereotype.Component
 ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig=org.springframework.boot.context.properties.ConfigurationProperties

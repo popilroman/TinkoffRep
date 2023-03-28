@@ -5,6 +5,7 @@ ru\tinkoff\edu\java\scrapper\ScrapperApplication.class
 META-INF\spring-configuration-metadata.json
 com\tinkoff\project\clients\GitHubClientImpl.class
 com\tinkoff\project\dto\ScrapperResponse.class
+ru\tinkoff\edu\java\scrapper\ScrapperController.class
 com\tinkoff\project\clients\configuration\ClientConfiguration.class
 com\tinkoff\project\clients\GitHubClient.class
 com\tinkoff\project\dto\ScrapperRequest.class

@@ -1,4 +1,4 @@
-package com.tinkoff.project.controller;
+package ru.tinkoff.edu.java.scrapper;
 
 import com.tinkoff.project.dto.ScrapperRequest;
 import com.tinkoff.project.dto.ScrapperResponse;

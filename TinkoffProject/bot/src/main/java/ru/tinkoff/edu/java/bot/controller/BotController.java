@@ -1,7 +1,6 @@
-package ru.tinkoff.edu.java.bot;
+package ru.tinkoff.edu.java.bot.controller;
 
 import com.tinkoff.project.dto.*;
-import com.tinkoff.project.controller.ExceptionControllerAdvice;
 
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
