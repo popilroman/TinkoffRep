@@ -4,5 +4,6 @@ com\tinkoff\project\clients\StackOverflowClient.class
 ru\tinkoff\edu\java\scrapper\ScrapperApplication.class
 META-INF\spring-configuration-metadata.json
 com\tinkoff\project\clients\GitHubClientImpl.class
+ru\tinkoff\edu\java\scrapper\scheduled\LinkUpdaterScheduler.class
 com\tinkoff\project\clients\configuration\ClientConfiguration.class
 com\tinkoff\project\clients\GitHubClient.class
