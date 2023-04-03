@@ -8,8 +8,13 @@
   ],
   "properties": [
     {
+<<<<<<< HEAD
       "name": "app.scheduler",
       "type": "reactor.core.scheduler.Scheduler",
+=======
+      "name": "app.scheduler-interval",
+      "type": "java.time.Duration",
+>>>>>>> feea3dc (Исправил ошибку связки свойсва app.scheduler.interval с объектом ApplicationConfig)
       "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig"
     },
     {
