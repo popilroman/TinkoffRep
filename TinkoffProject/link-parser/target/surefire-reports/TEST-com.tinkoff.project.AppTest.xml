@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tinkoff.project.AppTest" time="0.6" tests="1" errors="0" skipped="0" failures="0">
+=======
+<<<<<<< HEAD
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tinkoff.project.AppTest" time="0.114" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.tinkoff.project.AppTest" time="0.153" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> feea3dc (Исправил ошибку связки свойсва app.scheduler.interval с объектом ApplicationConfig)
+>>>>>>> 71beeacaaed3711b8effc5484d5a17af8d19fde0
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +23,15 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire16873217196851802219\surefirebooter2966139724195099219.jar C:\Users\HP\AppData\Local\Temp\surefire16873217196851802219 2023-04-03T09-43-10_947-jvmRun1 surefire17390032944535086016tmp surefire_29833525326218318020tmp"/>
+=======
+<<<<<<< HEAD
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire9078174710733674907\surefirebooter1979652733206016080.jar C:\Users\HP\AppData\Local\Temp\surefire9078174710733674907 2023-04-02T22-06-06_628-jvmRun1 surefire4237580387509165357tmp surefire_27434419859819982865tmp"/>
+=======
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire2275582534859599300\surefirebooter6665830593738104052.jar C:\Users\HP\AppData\Local\Temp\surefire2275582534859599300 2023-04-03T09-18-50_852-jvmRun1 surefire2735671519594225681tmp surefire_217194394480304085506tmp"/>
+>>>>>>> feea3dc (Исправил ошибку связки свойсва app.scheduler.interval с объектом ApplicationConfig)
+>>>>>>> 71beeacaaed3711b8effc5484d5a17af8d19fde0
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\target\test-classes;D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\target\classes;C:\Users\HP\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +46,15 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire16873217196851802219\surefirebooter2966139724195099219.jar"/>
+=======
+<<<<<<< HEAD
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire9078174710733674907\surefirebooter1979652733206016080.jar"/>
+=======
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire2275582534859599300\surefirebooter6665830593738104052.jar"/>
+>>>>>>> feea3dc (Исправил ошибку связки свойсва app.scheduler.interval с объектом ApplicationConfig)
+>>>>>>> 71beeacaaed3711b8effc5484d5a17af8d19fde0
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -56,5 +80,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="shouldAnswerWithTrue" classname="com.tinkoff.project.AppTest" time="0.013"/>
+=======
+<<<<<<< HEAD
+  <testcase name="shouldAnswerWithTrue" classname="com.tinkoff.project.AppTest" time="0.002"/>
+=======
+  <testcase name="shouldAnswerWithTrue" classname="com.tinkoff.project.AppTest" time="0.004"/>
+>>>>>>> feea3dc (Исправил ошибку связки свойсва app.scheduler.interval с объектом ApplicationConfig)
+>>>>>>> 71beeacaaed3711b8effc5484d5a17af8d19fde0
 </testsuite>

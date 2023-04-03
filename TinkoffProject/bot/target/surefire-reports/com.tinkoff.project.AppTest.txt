@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: com.tinkoff.project.AppTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 s - in com.tinkoff.project.AppTest
+=======
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 s - in com.tinkoff.project.AppTest
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 s - in com.tinkoff.project.AppTest
+>>>>>>> feea3dc (Исправил ошибку связки свойсва app.scheduler.interval с объектом ApplicationConfig)
+>>>>>>> 71beeacaaed3711b8effc5484d5a17af8d19fde0
