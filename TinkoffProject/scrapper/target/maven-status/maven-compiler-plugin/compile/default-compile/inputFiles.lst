@@ -1,4 +1,5 @@
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\StackOverflowClientImpl.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\ScrapperHttpClient.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\dto\AddLinkRequest.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\ScrapperLinksController.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\configuration\ClientConfiguration.java
