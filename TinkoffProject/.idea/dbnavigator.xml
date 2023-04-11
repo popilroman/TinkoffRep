@@ -13,10 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="d34b1c82-b6b0-4c4b-9514-174257bd49b0">
-      <console name="Connection" type="STANDARD" schema="scrapper" session="Main"><![CDATA[SELECT table_name
-FROM information_schema.tables
-WHERE table_schema = 'public';]]></console>
-      <console name="Practice5" type="STANDARD" schema="scrapper" session="Main"><![CDATA[SELECT * FROM information_schema.schemata;]]></console>
+      <console name="Practice5" type="STANDARD" schema="scrapper" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -27,9 +24,6 @@ WHERE table_schema = 'public';]]></console>
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
-  </component>
-  <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/src/main/migrations/SchemaDB.sql" connection-id="d34b1c82-b6b0-4c4b-9514-174257bd49b0" session-id="MAIN" current-schema="public" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />

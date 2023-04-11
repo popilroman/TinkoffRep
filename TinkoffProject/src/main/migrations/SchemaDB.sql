@@ -3,7 +3,7 @@
 SET search_path TO public;
 
 --changeset me:create-chat-table
-CREATE TABLE public.Chats (
+CREATE TABLE public.Chats(
   id INT NOT NULL PRIMARY KEY,
   name_chat VARCHAR(255) NOT NULL
 );
