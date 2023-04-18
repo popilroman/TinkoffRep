@@ -5,8 +5,8 @@ services:
     container_name: postgresql
     environment:
       - POSTGRES_DB=scrapper
-      - POSTGRES_USER=popilroman
-      - POSTGRES_PASSWORD=popilroman
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
     volumes:
       - postgres:/var/lib/postgesql/data
     networks:
@@ -23,8 +23,8 @@ services:
       - --changelog-file=master.xml
       - --driver=org.postgresql.Driver
       - --url=jdbc:postgresql://postgresql:5432/scrapper
-      - --username=popilroman
-      - --password=popilroman
+      - --username=postgres
+      - --password=postgres
       - update
     volumes:
       - ./migrations:/liquibase/changelog
