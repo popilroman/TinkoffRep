@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
 <testsuite tests="1" failures="0" name="com.tinkoff.project.AppTest" time="0.003" errors="0" skipped="0">
+=======
+<testsuite tests="1" failures="0" name="com.tinkoff.project.AppTest" time="0.005" errors="0" skipped="0">
+>>>>>>> main
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
@@ -61,5 +65,9 @@
     <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+<<<<<<< HEAD
   <testcase classname="com.tinkoff.project.AppTest" name="shouldAnswerWithTrue" time="0.003"/>
+=======
+  <testcase classname="com.tinkoff.project.AppTest" name="shouldAnswerWithTrue" time="0.005"/>
+>>>>>>> main
 </testsuite>

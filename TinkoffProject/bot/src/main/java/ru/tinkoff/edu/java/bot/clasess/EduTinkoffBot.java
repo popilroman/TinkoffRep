@@ -6,11 +6,22 @@ import com.pengrad.telegrambot.model.BotCommand;
 import com.pengrad.telegrambot.model.Update;
 import com.pengrad.telegrambot.request.SendMessage;
 import com.pengrad.telegrambot.request.SetMyCommands;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import ru.tinkoff.edu.java.bot.configuration.ApplicationConfig;
 
 import java.util.List;
-
+@Component
 public class EduTinkoffBot {
-    TelegramBot bot = new TelegramBot("6110997946:AAFvWI6CF9PSoIwWCrLIo3mmbIWiQK0x6Uk");
+//    TelegramBot bot = new TelegramBot("6110997946:AAFvWI6CF9PSoIwWCrLIo3mmbIWiQK0x6Uk");
+    private final TelegramBot bot;
+    private final ApplicationConfig applicationConfig;
+
+    @Autowired
+    public EduTinkoffBot(ApplicationConfig applicationConfig) {
+        this.applicationConfig = applicationConfig;
+        bot = new TelegramBot(applicationConfig.getToken());
+    }
 
     public void startBot() {
         EduTinkoffBotCommands eduTinkoffBotCommands = new EduTinkoffBotCommands();

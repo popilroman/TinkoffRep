@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.tinkoff.project.LinkParserTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in com.tinkoff.project.LinkParserTest
+=======
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.tinkoff.project.LinkParserTest
+>>>>>>> main
