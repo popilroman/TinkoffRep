@@ -1,16 +1,26 @@
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\StackOverflowClientImpl.java
+<<<<<<< HEAD
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\storages\LinkStorage.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\ScrapperDataBaseController.java
+=======
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\ScrapperHttpClient.java
+>>>>>>> main
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\dto\AddLinkRequest.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\ScrapperLinksController.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\configuration\ClientConfiguration.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\ScrapperApplication.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\StackOverflowClient.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\DBPattern\ChatsPattern.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\ScrapperTgChatController.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\DBPattern\LinksPattern.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\dto\ApiErrorResponse.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\GitHubClient.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\dto\LinkResponse.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\dto\ListLinksResponse.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\objects\Chat.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\objects\Link.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\GitHubClientImpl.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\configuration\ApplicationConfig.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\dto\RemoveLinkRequest.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\scheduled\LinkUpdaterScheduler.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\storages\ChatStorage.java
