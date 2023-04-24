@@ -8,8 +8,8 @@
   ],
   "properties": [
     {
-      "name": "app.scheduler-interval",
-      "type": "java.time.Duration",
+      "name": "app.scheduler",
+      "type": "ru.tinkoff.edu.java.scrapper.service.schedule.Schedule",
       "sourceType": "ru.tinkoff.edu.java.scrapper.configuration.ApplicationConfig"
     },
     {

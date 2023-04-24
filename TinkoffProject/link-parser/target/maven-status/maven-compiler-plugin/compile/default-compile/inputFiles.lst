@@ -1,5 +1,8 @@
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\com\tinkoff\project\StackoverflowLinkHandler.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\com\tinkoff\project\GitHubLinkHandler.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\com\tinkoff\project\LinkParser.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\com\tinkoff\project\App.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\com\tinkoff\project\LinkHandler.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\GitHubLinkParse.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\Parser.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\StackOverflowLinkParse.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\LinkParserApplication.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\LinkParse.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\GitHubResultRecord.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\ParseResult.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\StackOverflowResultRecord.java
