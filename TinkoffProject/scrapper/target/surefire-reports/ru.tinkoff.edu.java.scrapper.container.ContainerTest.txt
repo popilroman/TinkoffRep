@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ru.tinkoff.edu.java.scrapper.container.ContainerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.459 s <<< FAILURE! - in ru.tinkoff.edu.java.scrapper.container.ContainerTest
-ru.tinkoff.edu.java.scrapper.container.ContainerTest.containerTest_shouldReturnTestRow  Time elapsed: 12.588 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 113.861 s <<< FAILURE! - in ru.tinkoff.edu.java.scrapper.container.ContainerTest
+ru.tinkoff.edu.java.scrapper.container.ContainerTest.containerTest_shouldReturnTestRow  Time elapsed: 27.825 s  <<< FAILURE!
 org.opentest4j.MultipleFailuresError: 
 container start test (1 failure)
 	org.opentest4j.AssertionFailedError: 

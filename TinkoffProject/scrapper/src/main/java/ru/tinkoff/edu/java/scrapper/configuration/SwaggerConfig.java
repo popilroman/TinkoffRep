@@ -18,7 +18,7 @@ public class SwaggerConfig {
                                 "<a href=\"https://gist.github.com/sanyarnd/52a78a01fa9ec234c8ad50fbc5ecc9e4\" target=\"_blank\">specification</a>")
                         .version("1.0.0")
                         .contact(new Contact()
-                                .name("Vladislav Gadetov")
-                                .email("vlad-nijakun@mail.ru")));
+                                .name("Popil Roman")
+                                .email("popil.roman23@mail.ru")));
     }
 }
