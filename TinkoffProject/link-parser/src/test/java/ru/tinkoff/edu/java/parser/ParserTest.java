@@ -10,7 +10,8 @@ import ru.tinkoff.edu.java.parser.links.StackOverflowLinkParse;
 import ru.tinkoff.edu.java.parser.result.GitHubResultRecord;
 import ru.tinkoff.edu.java.parser.result.StackOverflowResultRecord;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 class ParserTest {
     private Parser parser;
