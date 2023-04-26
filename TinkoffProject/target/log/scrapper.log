@@ -271,3 +271,420 @@ Action:
 
 Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' in your configuration.
 
+2023-04-26 11:04:43,958 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:04:44,105 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 5584 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:04:44,109 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:04:44,286 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:04:44,287 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:04:47,466 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:04:47,520 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:04:50,552 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:04:50,586 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:04:50,588 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:04:50,589 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:04:50,924 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:04:50,926 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6637 ms
+2023-04-26 11:04:52,414 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:04:52,601 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:04:54,013 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:04:54,772 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:04:54,801 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:04:57,676 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkUpdaterScheduler' defined in class path resource [ru/tinkoff/edu/java/scrapper/service/schedule/LinkUpdaterScheduler.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:04:57,678 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:04:57,692 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:04:57,726 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:04:57,861 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.tinkoff.edu.java.scrapper.service.schedule.LinkUpdaterScheduler required a bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' in your configuration.
+
+2023-04-26 11:15:02,630 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:15:02,831 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 8220 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:15:02,834 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:15:03,013 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:15:03,014 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:15:06,127 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:15:06,177 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:15:08,912 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:15:08,939 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:15:08,942 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:15:08,942 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:15:09,191 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:15:09,193 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6177 ms
+2023-04-26 11:15:10,869 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:15:11,027 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:15:12,227 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:15:12,978 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:15:13,008 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:15:17,174 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkUpdaterScheduler' defined in class path resource [ru/tinkoff/edu/java/scrapper/service/schedule/LinkUpdaterScheduler.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:15:17,175 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:15:17,190 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:15:17,309 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:15:17,484 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.tinkoff.edu.java.scrapper.service.schedule.LinkUpdaterScheduler required a bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' in your configuration.
+
+2023-04-26 11:17:29,929 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:17:30,174 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 15476 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:17:30,179 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:17:30,353 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:17:30,354 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:17:33,789 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:17:33,844 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 29 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:17:36,802 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:17:36,835 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:17:36,837 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:17:36,838 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:17:37,095 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:17:37,097 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6740 ms
+2023-04-26 11:17:38,491 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:17:38,678 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:17:39,857 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:17:40,839 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:17:40,870 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:17:43,742 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'linkUpdaterScheduler' defined in class path resource [ru/tinkoff/edu/java/scrapper/service/schedule/LinkUpdaterScheduler.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:17:43,744 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:17:43,758 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:17:43,803 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:17:43,883 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in ru.tinkoff.edu.java.scrapper.service.schedule.LinkUpdaterScheduler required a bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.LinkService' in your configuration.
+
+2023-04-26 11:21:19,133 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:21:19,328 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 13896 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:21:19,332 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:21:19,541 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:21:19,544 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:21:23,492 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:21:23,538 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:21:26,632 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:21:26,667 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:21:26,671 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:21:26,672 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:21:26,942 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:21:26,943 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 7397 ms
+2023-04-26 11:21:28,565 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:21:28,816 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:21:31,150 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:21:32,232 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:21:32,273 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:21:33,007 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tgChatController' defined in class path resource [ru/tinkoff/edu/java/scrapper/controller/TgChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:21:33,009 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:21:33,019 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:21:33,059 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:21:33,120 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.tinkoff.edu.java.scrapper.controller.TgChatController required a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' in your configuration.
+
+2023-04-26 11:23:55,313 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:23:55,517 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 2792 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:23:55,521 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:23:55,744 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:23:55,745 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:24:00,527 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:24:00,618 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 53 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:24:04,637 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:24:04,666 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:24:04,669 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:24:04,670 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:24:04,904 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:24:04,906 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 9158 ms
+2023-04-26 11:24:06,433 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:24:06,597 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:24:08,483 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:24:09,469 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:24:09,518 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:24:10,169 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tgChatController' defined in class path resource [ru/tinkoff/edu/java/scrapper/controller/TgChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:24:10,171 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:24:10,181 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:24:10,223 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:24:10,300 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.tinkoff.edu.java.scrapper.controller.TgChatController required a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' in your configuration.
+
+2023-04-26 11:42:23,967 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:42:24,124 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 10448 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:42:24,128 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:42:24,296 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:42:24,297 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:42:27,623 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:42:27,676 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:42:31,386 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:42:31,414 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:42:31,417 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:42:31,418 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:42:31,682 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:42:31,683 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 7384 ms
+2023-04-26 11:42:33,070 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:42:33,280 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:42:34,415 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:42:35,238 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:42:35,266 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:42:35,951 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tgChatController' defined in class path resource [ru/tinkoff/edu/java/scrapper/controller/TgChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:42:35,952 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:42:35,961 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:42:35,992 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:42:36,037 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.tinkoff.edu.java.scrapper.controller.TgChatController required a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' in your configuration.
+
+2023-04-26 11:43:27,128 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:43:27,389 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 6308 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:43:27,393 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:43:27,706 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:43:27,707 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:43:34,895 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:43:34,990 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:43:38,559 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:43:38,626 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:43:38,630 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:43:38,631 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:43:39,016 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:43:39,022 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 11312 ms
+2023-04-26 11:43:40,753 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:43:40,938 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:43:42,616 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:43:43,714 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:43:43,774 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:43:44,627 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tgChatController' defined in class path resource [ru/tinkoff/edu/java/scrapper/controller/TgChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:43:44,629 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:43:44,644 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:43:44,724 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:43:44,808 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.tinkoff.edu.java.scrapper.controller.TgChatController required a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' in your configuration.
+
+2023-04-26 11:53:35,201 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:53:35,410 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 15784 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:53:35,413 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:53:35,688 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:53:35,698 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:53:38,780 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:53:38,875 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:53:41,857 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:53:41,908 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:53:41,911 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:53:41,912 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:53:42,228 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:53:42,230 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6529 ms
+2023-04-26 11:53:43,653 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:53:43,940 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:53:45,174 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:53:46,045 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:53:46,089 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:53:46,830 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tgChatController' defined in class path resource [ru/tinkoff/edu/java/scrapper/controller/TgChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:53:46,831 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:53:46,846 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:53:46,932 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:53:47,078 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.tinkoff.edu.java.scrapper.controller.TgChatController required a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' in your configuration.
+
+2023-04-26 11:54:53,626 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 11:54:54,058 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 8688 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 11:54:54,061 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 11:54:54,243 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 11:54:54,250 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 11:54:57,505 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 11:54:57,559 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2023-04-26 11:55:01,099 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 11:55:01,141 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 11:55:01,144 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 11:55:01,144 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 11:55:01,473 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 11:55:01,476 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 7204 ms
+2023-04-26 11:55:03,431 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 11:55:03,671 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 11:55:05,287 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 11:55:06,458 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 11:55:06,484 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:55:07,074 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'tgChatController' defined in class path resource [ru/tinkoff/edu/java/scrapper/controller/TgChatController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-04-26 11:55:07,075 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 11:55:07,084 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2023-04-26 11:55:07,120 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 11:55:07,169 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in ru.tinkoff.edu.java.scrapper.controller.TgChatController required a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'ru.tinkoff.edu.java.scrapper.service.TgChatService' in your configuration.
+
+2023-04-26 12:01:01,272 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 12:01:01,436 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 3652 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 12:01:01,440 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 12:01:01,837 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 12:01:01,861 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 12:01:04,561 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ru.tinkoff.edu.java.scrapper.ScrapperApplication]
+2023-04-26 12:01:04,581 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-26 12:01:04,679 ERROR o.s.b.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [ru.tinkoff.edu.java.scrapper.ScrapperApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:178)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:398)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:745)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:565)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at ru.tinkoff.edu.java.scrapper.ScrapperApplication.main(ScrapperApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'beanConfig' for bean class [ru.tinkoff.edu.java.scrapper.service.configuration.BeanConfig] conflicts with existing, non-compatible bean definition of same name and class [ru.tinkoff.edu.java.scrapper.configuration.BeanConfig]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:289)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:243)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:196)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:164)
+	... 18 common frames omitted
+2023-04-26 12:06:27,571 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-04-26 12:06:27,769 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Starting ScrapperApplication using Java 17.0.2 with PID 13884 (D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\target\classes started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject)
+2023-04-26 12:06:27,821 INFO r.t.e.j.s.ScrapperApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-04-26 12:06:28,105 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-26 12:06:28,108 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-26 12:06:32,594 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-26 12:06:33,334 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 720 ms. Found 4 JPA repository interfaces.
+2023-04-26 12:06:35,915 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-04-26 12:06:35,956 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8081"]
+2023-04-26 12:06:35,959 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2023-04-26 12:06:35,960 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-04-26 12:06:36,345 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-04-26 12:06:36,346 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8236 ms
+2023-04-26 12:06:37,807 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-26 12:06:37,966 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-04-26 12:06:39,340 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-26 12:06:42,398 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-26 12:06:42,427 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-26 12:06:52,439 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-04-26 12:06:52,533 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8081"]
+2023-04-26 12:06:52,632 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-26 12:06:52,760 INFO r.t.e.j.s.ScrapperApplication [restartedMain] Started ScrapperApplication in 26.339 seconds (process running for 29.471)
+2023-04-26 12:07:33,058 INFO o.a.c.c.C.[.[.[/] [http-nio-8081-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-26 12:07:33,068 INFO o.s.w.s.DispatcherServlet [http-nio-8081-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-04-26 12:07:33,152 INFO o.s.w.s.DispatcherServlet [http-nio-8081-exec-2] Completed initialization in 83 ms
+2023-04-26 12:07:38,542 INFO o.s.a.AbstractOpenApiResource [http-nio-8081-exec-9] Init duration for springdoc-openapi is: 3026 ms
+2023-04-26 12:08:08,970 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
