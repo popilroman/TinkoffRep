@@ -2,9 +2,9 @@ package ru.tinkoff.edu.java.scrapper.repository.imp;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import ru.tinkoff.edu.java.scrapper.dto.UpdatesDto;
-import ru.tinkoff.edu.java.scrapper.dto.updates.GitHubUpdatesDto;
-import ru.tinkoff.edu.java.scrapper.dto.updates.StackOverflowUpdatesDto;
+import ru.tinkoff.edu.java.scrapper.model.dto.UpdatesDto;
+import ru.tinkoff.edu.java.scrapper.model.dto.updates.GitHubUpdatesDto;
+import ru.tinkoff.edu.java.scrapper.model.dto.updates.StackOverflowUpdatesDto;
 import ru.tinkoff.edu.java.scrapper.exception.DataNotFoundException;
 import ru.tinkoff.edu.java.scrapper.model.response.GitHubRepositoryInfoResponse;
 import ru.tinkoff.edu.java.scrapper.model.response.StackOverflowQuestionInfoResponse;

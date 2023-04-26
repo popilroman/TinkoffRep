@@ -4,7 +4,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
-import ru.tinkoff.edu.java.scrapper.dto.LinkResponseDto;
+import ru.tinkoff.edu.java.scrapper.model.dto.LinkResponseDto;
 import ru.tinkoff.edu.java.scrapper.model.request.AddLinkRequest;
 import ru.tinkoff.edu.java.scrapper.model.request.RemoveLinkRequest;
 import ru.tinkoff.edu.java.scrapper.model.response.LinkResponse;
@@ -95,7 +95,7 @@ public class LinkRepositoryImpl implements LinkRepository {
     }
 
     @Override
-    public List<LinkResponseDto> findOneOldestLinksByLastCheckForEachUser() {
+    public List<LinkResponseDto> findOneOldestLinkByLastCheckForEachUser() {
         String query = "SELECT l1.* " +
                 "FROM link_info.link l1 " +
                 "WHERE l1.id = (SELECT l2.id " +

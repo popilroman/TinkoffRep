@@ -16,14 +16,12 @@ public class StackOverflowClient {
 
     public Mono<StackOverflowQuestionInfoResponse> getStackOverflowQuestionInfo(StackOverflowResultRecord questionId) {
         return webClient.get()
-                .uri(uriBuilder -> {
-                    return uriBuilder
+                .uri(uriBuilder -> uriBuilder
                             .path("/2.3/questions/{id}")
                             .queryParam("order", "desc")
                             .queryParam("sort", "activity")
                             .queryParam("site", "stackoverflow")
-                            .build(questionId.getResult());
-                })
+                            .build(questionId.getResult()))
                 .retrieve()
                 .bodyToMono(StackOverflowQuestionInfoResponse.class);
     }

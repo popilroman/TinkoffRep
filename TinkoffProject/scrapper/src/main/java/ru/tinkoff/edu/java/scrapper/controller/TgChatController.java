@@ -16,8 +16,8 @@ import ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcTgChatService;
 @RequiredArgsConstructor
 public class TgChatController implements TgChat {
     private final HttpServletRequest request;
-    private final JdbcTgChatService jdbcTgChatService;
     private final TgChatService tgChatService;
+
 
     @Override
     public ResponseEntity<Void> registerChat(

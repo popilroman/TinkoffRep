@@ -1,6 +1,7 @@
 package ru.tinkoff.edu.java.scrapper.service.jpa;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.tinkoff.edu.java.scrapper.domain.entity.Chat;
 import ru.tinkoff.edu.java.scrapper.domain.entity.GitHubUpdates;
@@ -28,7 +29,7 @@ import ru.tinkoff.edu.java.scrapper.service.LinkService;
 
 import java.time.OffsetDateTime;
 import java.util.List;
-
+@Service
 @RequiredArgsConstructor
 public class JpaLinkService implements LinkService {
     private final JpaLinkRepository linkRepository;

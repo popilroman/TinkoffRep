@@ -9,7 +9,6 @@ import ru.tinkoff.edu.java.scrapper.model.response.ListTgChatResponse;
 import ru.tinkoff.edu.java.scrapper.model.response.TgChatResponse;
 import ru.tinkoff.edu.java.scrapper.repository.TgChatRepository;
 import ru.tinkoff.edu.java.scrapper.service.TgChatService;
-
 @Service
 @RequiredArgsConstructor
 public class JdbcTgChatService implements TgChatService {
