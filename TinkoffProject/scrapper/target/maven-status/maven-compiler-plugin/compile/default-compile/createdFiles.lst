@@ -5,9 +5,11 @@ ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcLinksService.class
 ru\tinkoff\edu\java\scrapper\ScrapperApplication.class
 ru\tinkoff\edu\java\scrapper\model\response\ListTgChatResponse$ListTgChatResponseBuilder.class
 ru\tinkoff\edu\java\scrapper\model\response\StackOverflowQuestionInfoResponse.class
+ru\tinkoff\edu\java\scrapper\service\rabbit\ScrapperQueueProducer.class
 ru\tinkoff\edu\java\scrapper\exception\DataAlreadyExistException.class
 ru\tinkoff\edu\java\scrapper\model\request\RemoveLinkRequest.class
 ru\tinkoff\edu\java\scrapper\model\request\LinkUpdateRequest.class
+ru\tinkoff\edu\java\scrapper\configuration\access\HttpAccessConfig.class
 ru\tinkoff\edu\java\scrapper\model\response\StackOverflowQuestionInfoResponse$Owner.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\records\GithubUpdatesRecord.class
 ru\tinkoff\edu\java\scrapper\model\response\ApiErrorResponse$ApiErrorResponseBuilder.class
@@ -32,6 +34,7 @@ ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\records\LinkRecord.cla
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\pojos\Chat.class
 ru\tinkoff\edu\java\scrapper\model\response\GitHubRepositoryInfoResponse$Owner.class
 ru\tinkoff\edu\java\scrapper\configuration\ClientConfig.class
+ru\tinkoff\edu\java\scrapper\configuration\RabbitMQConfig.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\GithubUpdates.class
 ru\tinkoff\edu\java\scrapper\service\schedule\LinkUpdaterScheduler.class
 ru\tinkoff\edu\java\scrapper\model\response\LinkResponse$LinkResponseBuilder.class
@@ -45,6 +48,7 @@ ru\tinkoff\edu\java\scrapper\model\response\TgChatResponse.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\LinkInfo.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\records\StackoverflowUpdatesRecord.class
 ru\tinkoff\edu\java\scrapper\service\schedule\Schedule.class
+ru\tinkoff\edu\java\scrapper\service\SendMessageService.class
 ru\tinkoff\edu\java\scrapper\configuration\BeanConfig.class
 ru\tinkoff\edu\java\scrapper\service\client\GitHubClient.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\StackoverflowUpdates.class
@@ -54,6 +58,7 @@ ru\tinkoff\edu\java\scrapper\controller\TgChatController.class
 ru\tinkoff\edu\java\scrapper\model\request\AddLinkRequest.class
 ru\tinkoff\edu\java\scrapper\repository\imp\LinkUpdatesRepositoryImp.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\pojos\GithubUpdates.class
+ru\tinkoff\edu\java\scrapper\configuration\access\RabbitQueueAccessConfig.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\DefaultCatalog.class
 ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\records\ChatRecord.class
 ru\tinkoff\edu\java\scrapper\handler\ControllerExceptionHandler.class
