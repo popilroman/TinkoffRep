@@ -1,6 +1,7 @@
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\LinkService.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\commands\impl\UntrackCommand.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\configuration\ApplicationConfig.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\UpdateService.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\configuration\TelegramConfig.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\exception\BadRequestException.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\commands\impl\TrackCommand.java
@@ -21,10 +22,13 @@ D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\commands\impl\HelpCommand.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\configuration\ClientConfiguration.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\commands\CommandList.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\update\ScrapperUpdates.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\bot\BotStarter.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\model\response\ApiErrorResponse.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\BotApplication.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\configuration\BeanConfig.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\commands\impl\StartCommand.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\model\request\AddLinkRequest.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\rabbit\ScrapperQueueListener.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\service\commands\impl\UnknownCommand.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\bot\src\main\java\ru\tinkoff\edu\java\bot\configuration\RabbitMQConfig.java

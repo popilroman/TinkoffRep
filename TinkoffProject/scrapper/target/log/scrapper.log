@@ -1832,3 +1832,599 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
 	... 97 common frames omitted
+2023-05-09 14:41:14,766 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksServiceTest]: JdbcLinksServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:41:15,203 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksServiceTest
+2023-05-09 14:41:15,882 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:41:15,938 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:41:15,976 INFO o.t.d.DockerMachineClientProviderStrategy [main] docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Intel\iCLS Client\, C:\Program Files\Intel\iCLS Client\, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files\Java\jdk-17\bin, D:\Программы\Git\cmd, , C:\Program Files\Docker\Docker\resources\bin, C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\, C:\Users\HP\AppData\Local\Programs\Python\Python39\, C:\Users\HP\AppData\Local\Microsoft\WindowsApps, D:\Программы\Microsoft VS Code\bin, D:\Программы\PyCharm Community Edition 2022.2.3\bin, , D:\Программы\IntelliJ IDEA Community Edition 2022.3.3\bin, C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin])
+2023-05-09 14:41:15,979 ERROR o.t.d.DockerClientProviderStrategy [main] Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://www.testcontainers.org/on_failure.html for more details.
+2023-05-09 14:41:21,835 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcTgChatServiceTest]: JdbcTgChatServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:41:22,288 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcTgChatServiceTest
+2023-05-09 14:41:23,080 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:41:23,215 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:41:23,241 INFO o.t.d.DockerMachineClientProviderStrategy [main] docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Intel\iCLS Client\, C:\Program Files\Intel\iCLS Client\, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files\Java\jdk-17\bin, D:\Программы\Git\cmd, , C:\Program Files\Docker\Docker\resources\bin, C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\, C:\Users\HP\AppData\Local\Programs\Python\Python39\, C:\Users\HP\AppData\Local\Microsoft\WindowsApps, D:\Программы\Microsoft VS Code\bin, D:\Программы\PyCharm Community Edition 2022.2.3\bin, , D:\Программы\IntelliJ IDEA Community Edition 2022.3.3\bin, C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin])
+2023-05-09 14:41:23,244 ERROR o.t.d.DockerClientProviderStrategy [main] Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://www.testcontainers.org/on_failure.html for more details.
+2023-05-09 14:41:26,415 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkServiceTest]: JpaLinkServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:41:27,123 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkServiceTest
+2023-05-09 14:41:27,875 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:41:27,910 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:41:27,931 INFO o.t.d.DockerMachineClientProviderStrategy [main] docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Intel\iCLS Client\, C:\Program Files\Intel\iCLS Client\, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files\Java\jdk-17\bin, D:\Программы\Git\cmd, , C:\Program Files\Docker\Docker\resources\bin, C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\, C:\Users\HP\AppData\Local\Programs\Python\Python39\, C:\Users\HP\AppData\Local\Microsoft\WindowsApps, D:\Программы\Microsoft VS Code\bin, D:\Программы\PyCharm Community Edition 2022.2.3\bin, , D:\Программы\IntelliJ IDEA Community Edition 2022.3.3\bin, C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin])
+2023-05-09 14:41:27,935 ERROR o.t.d.DockerClientProviderStrategy [main] Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://www.testcontainers.org/on_failure.html for more details.
+2023-05-09 14:41:31,080 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jpa.JpaTgChatServiceTest]: JpaTgChatServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:41:31,484 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jpa.JpaTgChatServiceTest
+2023-05-09 14:41:32,363 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:41:32,433 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:41:32,466 INFO o.t.d.DockerMachineClientProviderStrategy [main] docker-machine executable was not found on PATH ([C:\Program Files\Common Files\Oracle\Java\javapath, C:\Program Files (x86)\Intel\iCLS Client\, C:\Program Files\Intel\iCLS Client\, C:\WINDOWS\system32, C:\WINDOWS, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL, C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT, C:\Program Files\Java\jdk-17\bin, D:\Программы\Git\cmd, , C:\Program Files\Docker\Docker\resources\bin, C:\Users\HP\AppData\Local\Programs\Python\Python39\Scripts\, C:\Users\HP\AppData\Local\Programs\Python\Python39\, C:\Users\HP\AppData\Local\Microsoft\WindowsApps, D:\Программы\Microsoft VS Code\bin, D:\Программы\PyCharm Community Edition 2022.2.3\bin, , D:\Программы\IntelliJ IDEA Community Edition 2022.3.3\bin, C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin])
+2023-05-09 14:41:32,473 ERROR o.t.d.DockerClientProviderStrategy [main] Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+As no valid configuration was found, execution cannot continue.
+See https://www.testcontainers.org/on_failure.html for more details.
+2023-05-09 14:47:33,075 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksServiceTest]: JdbcLinksServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:47:33,683 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksServiceTest
+2023-05-09 14:47:34,851 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:47:35,410 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:47:44,472 INFO o.t.d.DockerClientProviderStrategy [main] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2023-05-09 14:47:44,477 INFO o.t.DockerClientFactory [main] Docker host IP address is localhost
+2023-05-09 14:47:44,739 INFO o.t.DockerClientFactory [main] Connected to docker: 
+  Server Version: 20.10.24
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 1791 MB
+2023-05-09 14:47:44,919 INFO d.3.4] [main] Creating container for image: testcontainers/ryuk:0.3.4
+2023-05-09 14:47:46,278 INFO o.t.u.RegistryAuthLocator [main] Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2023-05-09 14:48:15,035 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 is starting: 887f961400fb84b02b1ddce6903c9f4d208a8c0cddbc407f344b994e149d1d17
+2023-05-09 14:48:23,397 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 started in PT38.6224613S
+2023-05-09 14:48:23,756 INFO o.t.u.RyukResourceReaper [main] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2023-05-09 14:48:23,759 INFO o.t.DockerClientFactory [main] Checking the system...
+2023-05-09 14:48:23,770 INFO o.t.DockerClientFactory [main] ?? Docker server version should be at least 1.6.0
+2023-05-09 14:48:23,780 INFO docker[postgres:15] [main] Creating container for image: postgres:15
+2023-05-09 14:48:24,744 INFO docker[postgres:15] [main] Container postgres:15 is starting: 258158fc6f1a25da6356f891a15b2af721013fa01b6abb50ff4b0aa8e2ef1c38
+2023-05-09 14:48:48,792 INFO docker[postgres:15] [main] Container postgres:15 started in PT25.0167786S
+2023-05-09 14:48:57,077 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09 14:48:57,176 INFO r.t.e.j.s.s.j.JdbcLinksServiceTest [main] Starting JdbcLinksServiceTest using Java 17.0.6 with PID 3164 (started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper)
+2023-05-09 14:48:57,182 INFO r.t.e.j.s.s.j.JdbcLinksServiceTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:49:02,302 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 14:49:03,296 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 928 ms. Found 4 JPA repository interfaces.
+2023-05-09 14:49:29,870 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 14:49:30,162 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-09 14:49:32,467 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09 14:49:36,013 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 14:49:36,048 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:49:58,747 INFO r.t.e.j.s.s.j.JdbcLinksServiceTest [main] Started JdbcLinksServiceTest in 63.65 seconds (process running for 149.661)
+2023-05-09 14:50:00,029 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT l1.* FROM link_info.link l1 WHERE l1.id = (SELECT l2.id FROM link_info.link l2 WHERE l2.chat_id = l1.chat_id ORDER BY l2.last_check LIMIT 1);]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:99)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1538)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:475)
+	at ru.tinkoff.edu.java.scrapper.repository.jdbc.JdbcLinkRepository.findOneOldestLinkByLastCheckForEachUser(JdbcLinkRepository.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at ru.tinkoff.edu.java.scrapper.repository.jdbc.JdbcLinkRepository$$SpringCGLIB$$0.findOneOldestLinkByLastCheckForEachUser(<generated>)
+	at ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksService.findAllOldestLinksByLastCheck(JdbcLinksService.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksService$$SpringCGLIB$$0.findAllOldestLinksByLastCheck(<generated>)
+	at ru.tinkoff.edu.java.scrapper.service.schedule.LinkUpdaterScheduler.update(LinkUpdaterScheduler.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "link_info.link" does not exist
+  Позиция: 18
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:244)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:381)
+	... 45 common frames omitted
+2023-05-09 14:50:13,051 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:13,849 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:14,718 INFO l.changelog [main] Creating database history table with name: public.databasechangelog
+2023-05-09 14:50:14,752 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:15,272 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:50:15,281 INFO l.changelog [main] ChangeSet link-info-schema.sql::23::admin ran successfully in 272ms
+2023-05-09 14:50:15,495 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:50:15,502 INFO l.changelog [main] ChangeSet link-info-insert.sql::23::admin ran successfully in 129ms
+2023-05-09 14:50:15,531 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:16,548 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:16,880 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:17,757 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:17,911 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:18,551 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:18,710 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:19,000 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:19,149 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:19,759 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:20,015 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:20,433 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:20,621 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:20,848 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:20,945 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:21,317 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:21,555 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:21,864 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:22,017 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:22,273 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:22,395 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:22,739 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:22,943 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:23,185 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:23,349 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:23,694 INFO l.database [main] Set default schema name to public
+2023-05-09 14:50:23,864 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:50:24,158 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:50:24,387 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:50:28,565 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:50:38,180 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcTgChatServiceTest]: JdbcTgChatServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:50:38,817 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcTgChatServiceTest
+2023-05-09 14:50:39,929 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:50:40,055 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:50:45,376 INFO o.t.d.DockerClientProviderStrategy [main] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2023-05-09 14:50:45,382 INFO o.t.DockerClientFactory [main] Docker host IP address is localhost
+2023-05-09 14:50:45,625 INFO o.t.DockerClientFactory [main] Connected to docker: 
+  Server Version: 20.10.24
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 1791 MB
+2023-05-09 14:50:45,873 INFO d.3.4] [main] Creating container for image: testcontainers/ryuk:0.3.4
+2023-05-09 14:50:46,943 INFO o.t.u.RegistryAuthLocator [main] Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2023-05-09 14:50:50,072 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 is starting: 06589cd418d50be8ec6af3be47d8712a2f392dfe1525e051eb6d813787629b6b
+2023-05-09 14:51:02,455 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 started in PT16.7889087S
+2023-05-09 14:51:02,535 INFO o.t.u.RyukResourceReaper [main] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2023-05-09 14:51:02,536 INFO o.t.DockerClientFactory [main] Checking the system...
+2023-05-09 14:51:02,540 INFO o.t.DockerClientFactory [main] ?? Docker server version should be at least 1.6.0
+2023-05-09 14:51:02,545 INFO docker[postgres:15] [main] Creating container for image: postgres:15
+2023-05-09 14:51:03,109 INFO docker[postgres:15] [main] Container postgres:15 is starting: 91b12ece274af74114c6cbe12237dbc332fa2068716451dc8258ffa6a779ad41
+2023-05-09 14:51:44,473 INFO docker[postgres:15] [main] Container postgres:15 started in PT41.9294106S
+2023-05-09 14:51:46,782 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09 14:51:46,871 INFO r.t.e.j.s.s.j.JdbcTgChatServiceTest [main] Starting JdbcTgChatServiceTest using Java 17.0.6 with PID 7084 (started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper)
+2023-05-09 14:51:46,874 INFO r.t.e.j.s.s.j.JdbcTgChatServiceTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:51:51,505 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 14:51:52,436 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 898 ms. Found 4 JPA repository interfaces.
+2023-05-09 14:51:55,306 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 14:51:55,773 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-09 14:51:57,796 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09 14:52:05,933 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 14:52:05,961 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:52:37,989 INFO r.t.e.j.s.s.j.JdbcTgChatServiceTest [main] Started JdbcTgChatServiceTest in 52.614 seconds (process running for 125.478)
+2023-05-09 14:52:43,892 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT l1.* FROM link_info.link l1 WHERE l1.id = (SELECT l2.id FROM link_info.link l2 WHERE l2.chat_id = l1.chat_id ORDER BY l2.last_check LIMIT 1);]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:99)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1538)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:465)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:475)
+	at ru.tinkoff.edu.java.scrapper.repository.jdbc.JdbcLinkRepository.findOneOldestLinkByLastCheckForEachUser(JdbcLinkRepository.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at ru.tinkoff.edu.java.scrapper.repository.jdbc.JdbcLinkRepository$$SpringCGLIB$$0.findOneOldestLinkByLastCheckForEachUser(<generated>)
+	at ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksService.findAllOldestLinksByLastCheck(JdbcLinksService.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcLinksService$$SpringCGLIB$$0.findAllOldestLinksByLastCheck(<generated>)
+	at ru.tinkoff.edu.java.scrapper.service.schedule.LinkUpdaterScheduler.update(LinkUpdaterScheduler.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "link_info.link" does not exist
+  Позиция: 18
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:333)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:319)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:295)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:244)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:452)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:381)
+	... 45 common frames omitted
+2023-05-09 14:52:51,337 INFO l.database [main] Set default schema name to public
+2023-05-09 14:52:51,888 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:52:52,731 INFO l.changelog [main] Creating database history table with name: public.databasechangelog
+2023-05-09 14:52:52,768 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:52:53,227 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:52:53,234 INFO l.changelog [main] ChangeSet link-info-schema.sql::23::admin ran successfully in 203ms
+2023-05-09 14:52:53,495 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:52:53,504 INFO l.changelog [main] ChangeSet link-info-insert.sql::23::admin ran successfully in 145ms
+2023-05-09 14:52:53,554 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:52:55,042 INFO l.database [main] Set default schema name to public
+2023-05-09 14:52:55,215 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:52:55,705 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:52:55,900 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:52:56,826 INFO l.database [main] Set default schema name to public
+2023-05-09 14:52:56,940 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:52:57,284 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:52:57,404 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:52:57,828 INFO l.database [main] Set default schema name to public
+2023-05-09 14:52:57,960 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:52:58,263 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:52:58,388 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:52:59,040 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:53:05,453 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkServiceTest]: JpaLinkServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:53:06,020 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkServiceTest
+2023-05-09 14:53:07,144 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:53:07,244 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:53:10,019 INFO o.t.d.DockerClientProviderStrategy [main] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2023-05-09 14:53:10,025 INFO o.t.DockerClientFactory [main] Docker host IP address is localhost
+2023-05-09 14:53:10,199 INFO o.t.DockerClientFactory [main] Connected to docker: 
+  Server Version: 20.10.24
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 1791 MB
+2023-05-09 14:53:10,344 INFO d.3.4] [main] Creating container for image: testcontainers/ryuk:0.3.4
+2023-05-09 14:53:11,558 INFO o.t.u.RegistryAuthLocator [main] Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2023-05-09 14:53:12,949 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 is starting: 6a57d2138ce3c72dce6cba40d33f8b695e2e426036d5387b2d7d16025726342c
+2023-05-09 14:53:22,880 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 started in PT12.6545899S
+2023-05-09 14:53:23,184 INFO o.t.u.RyukResourceReaper [main] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2023-05-09 14:53:23,188 INFO o.t.DockerClientFactory [main] Checking the system...
+2023-05-09 14:53:23,194 INFO o.t.DockerClientFactory [main] ?? Docker server version should be at least 1.6.0
+2023-05-09 14:53:23,203 INFO docker[postgres:15] [main] Creating container for image: postgres:15
+2023-05-09 14:53:23,708 INFO docker[postgres:15] [main] Container postgres:15 is starting: 7bc2e69443602a0122fb382e96d4611196b0d98d3864f9ed449f7d6e47899539
+2023-05-09 14:53:40,980 INFO docker[postgres:15] [main] Container postgres:15 started in PT17.7800901S
+2023-05-09 14:53:42,785 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09 14:53:42,953 INFO r.t.e.j.s.s.j.JpaLinkServiceTest [main] Starting JpaLinkServiceTest using Java 17.0.6 with PID 10204 (started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper)
+2023-05-09 14:53:42,958 INFO r.t.e.j.s.s.j.JpaLinkServiceTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:53:48,854 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 14:53:49,642 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 761 ms. Found 4 JPA repository interfaces.
+2023-05-09 14:54:15,043 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 14:54:15,327 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-09 14:54:16,933 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09 14:54:19,761 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 14:54:19,788 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:54:35,338 INFO r.t.e.j.s.s.j.JpaLinkServiceTest [main] Started JpaLinkServiceTest in 53.775 seconds (process running for 93.246)
+2023-05-09 14:54:36,408 WARN o.h.e.j.s.SqlExceptionHelper [scheduling-1] SQL Error: 0, SQLState: 42P01
+2023-05-09 14:54:36,411 ERROR o.h.e.j.s.SqlExceptionHelper [scheduling-1] ERROR: relation "link_info.link" does not exist
+  Позиция: 18
+2023-05-09 14:54:36,458 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [SELECT l1.* FROM link_info.link l1 WHERE l1.id = (SELECT l2.id FROM link_info.link l2 WHERE l2.chat_id = l1.chat_id ORDER BY l2.last_check LIMIT 1);]; SQL [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:257)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy147.findOneOldestLinkByLastCheckForEachUser(Unknown Source)
+	at ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkService.findAllOldestLinksByLastCheck(JpaLinkService.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkService$$SpringCGLIB$$0.findAllOldestLinksByLastCheck(<generated>)
+	at ru.tinkoff.edu.java.scrapper.service.schedule.LinkUpdaterScheduler.update(LinkUpdaterScheduler.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [SELECT l1.* FROM link_info.link l1 WHERE l1.id = (SELECT l2.id FROM link_info.link l2 WHERE l2.chat_id = l1.chat_id ORDER BY l2.last_check LIMIT 1);]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:89)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:253)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:146)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getMetaData(AbstractResultSetAccess.java:33)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getColumnCount(AbstractResultSetAccess.java:49)
+	at org.hibernate.query.results.ResultSetMappingImpl.resolve(ResultSetMappingImpl.java:187)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:559)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:350)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:166)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:91)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
+	at org.hibernate.query.sql.internal.NativeSelectQueryPlanImpl.performList(NativeSelectQueryPlanImpl.java:105)
+	at org.hibernate.query.sql.internal.NativeQueryImpl.doList(NativeQueryImpl.java:602)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:363)
+	at org.hibernate.query.Query.getResultList(Query.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:401)
+	at jdk.proxy2/jdk.proxy2.$Proxy179.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:127)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:148)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:77)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 28 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "link_info.link" does not exist
+  Позиция: 18
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:217)
+	... 63 common frames omitted
+2023-05-09 14:54:38,351 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:38,960 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:39,681 INFO l.changelog [main] Creating database history table with name: public.databasechangelog
+2023-05-09 14:54:39,732 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:40,334 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:54:40,344 INFO l.changelog [main] ChangeSet link-info-schema.sql::23::admin ran successfully in 302ms
+2023-05-09 14:54:40,662 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:54:40,668 INFO l.changelog [main] ChangeSet link-info-insert.sql::23::admin ran successfully in 177ms
+2023-05-09 14:54:40,712 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:42,151 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:42,363 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:42,891 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:43,024 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:43,786 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:44,016 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:44,432 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:44,603 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:45,298 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:45,439 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:45,715 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:45,855 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:46,235 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:46,377 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:46,627 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:46,731 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:47,428 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:47,776 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:48,084 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:48,223 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:49,148 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:49,240 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:49,606 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:49,854 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:50,472 INFO l.database [main] Set default schema name to public
+2023-05-09 14:54:50,695 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:54:50,969 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:54:51,096 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:54:51,758 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:54:59,869 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [ru.tinkoff.edu.java.scrapper.service.jpa.JpaTgChatServiceTest]: JpaTgChatServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-09 14:55:00,911 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration ru.tinkoff.edu.java.scrapper.ScrapperApplication for test class ru.tinkoff.edu.java.scrapper.service.jpa.JpaTgChatServiceTest
+2023-05-09 14:55:02,225 INFO o.t.u.ImageNameSubstitutor [main] Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2023-05-09 14:55:02,405 INFO o.t.d.DockerClientProviderStrategy [main] Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2023-05-09 14:55:08,617 INFO o.t.d.DockerClientProviderStrategy [main] Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2023-05-09 14:55:08,623 INFO o.t.DockerClientFactory [main] Docker host IP address is localhost
+2023-05-09 14:55:09,285 INFO o.t.DockerClientFactory [main] Connected to docker: 
+  Server Version: 20.10.24
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 1791 MB
+2023-05-09 14:55:09,525 INFO d.3.4] [main] Creating container for image: testcontainers/ryuk:0.3.4
+2023-05-09 14:55:13,926 INFO o.t.u.RegistryAuthLocator [main] Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2023-05-09 14:55:17,069 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 is starting: 49d52bcb33323a10671c6ac63636db15cc1e422f9b30485cf2209d0951f40ae2
+2023-05-09 14:55:31,110 INFO d.3.4] [main] Container testcontainers/ryuk:0.3.4 started in PT21.7792375S
+2023-05-09 14:55:31,224 INFO o.t.u.RyukResourceReaper [main] Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2023-05-09 14:55:31,225 INFO o.t.DockerClientFactory [main] Checking the system...
+2023-05-09 14:55:31,229 INFO o.t.DockerClientFactory [main] ?? Docker server version should be at least 1.6.0
+2023-05-09 14:55:31,232 INFO docker[postgres:15] [main] Creating container for image: postgres:15
+2023-05-09 14:55:50,103 INFO docker[postgres:15] [main] Container postgres:15 is starting: 128322b5bb90dc1ee360996214c9a9b2720d75b1c0a7d9903b466a9e4b4f4618
+2023-05-09 14:56:12,855 INFO docker[postgres:15] [main] Container postgres:15 started in PT41.6227649S
+2023-05-09 14:56:13,927 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-09 14:56:14,095 INFO r.t.e.j.s.s.j.JpaTgChatServiceTest [main] Starting JpaTgChatServiceTest using Java 17.0.6 with PID 10348 (started by Роман in D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper)
+2023-05-09 14:56:14,101 INFO r.t.e.j.s.s.j.JpaTgChatServiceTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-09 14:56:18,504 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-09 14:56:19,463 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 910 ms. Found 4 JPA repository interfaces.
+2023-05-09 14:56:23,693 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-09 14:56:23,949 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.6.Final
+2023-05-09 14:56:25,577 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-09 14:56:28,714 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-09 14:56:28,743 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-09 14:56:46,447 INFO r.t.e.j.s.s.j.JpaTgChatServiceTest [main] Started JpaTgChatServiceTest in 33.468 seconds (process running for 110.687)
+2023-05-09 14:56:47,180 WARN o.h.e.j.s.SqlExceptionHelper [scheduling-1] SQL Error: 0, SQLState: 42P01
+2023-05-09 14:56:47,182 ERROR o.h.e.j.s.SqlExceptionHelper [scheduling-1] ERROR: relation "link_info.link" does not exist
+  Позиция: 18
+2023-05-09 14:56:47,217 ERROR o.s.s.s.TaskUtils$LoggingErrorHandler [scheduling-1] Unexpected error occurred in scheduled task
+org.springframework.dao.InvalidDataAccessResourceUsageException: JDBC exception executing SQL [SELECT l1.* FROM link_info.link l1 WHERE l1.id = (SELECT l2.id FROM link_info.link l2 WHERE l2.chat_id = l1.chat_id ORDER BY l2.last_check LIMIT 1);]; SQL [n/a]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:257)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:218)
+	at jdk.proxy2/jdk.proxy2.$Proxy147.findOneOldestLinkByLastCheckForEachUser(Unknown Source)
+	at ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkService.findAllOldestLinksByLastCheck(JpaLinkService.java:99)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at ru.tinkoff.edu.java.scrapper.service.jpa.JpaLinkService$$SpringCGLIB$$0.findAllOldestLinksByLastCheck(<generated>)
+	at ru.tinkoff.edu.java.scrapper.service.schedule.LinkUpdaterScheduler.update(LinkUpdaterScheduler.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.hibernate.exception.SQLGrammarException: JDBC exception executing SQL [SELECT l1.* FROM link_info.link l1 WHERE l1.id = (SELECT l2.id FROM link_info.link l2 WHERE l2.chat_id = l1.chat_id ORDER BY l2.last_check LIMIT 1);]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:89)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:109)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:95)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:253)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.getResultSet(DeferredResultSetAccess.java:146)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getMetaData(AbstractResultSetAccess.java:33)
+	at org.hibernate.sql.results.jdbc.internal.AbstractResultSetAccess.getColumnCount(AbstractResultSetAccess.java:49)
+	at org.hibernate.query.results.ResultSetMappingImpl.resolve(ResultSetMappingImpl.java:187)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.resolveJdbcValuesSource(JdbcSelectExecutorStandardImpl.java:559)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.doExecuteQuery(JdbcSelectExecutorStandardImpl.java:350)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.executeQuery(JdbcSelectExecutorStandardImpl.java:166)
+	at org.hibernate.sql.exec.internal.JdbcSelectExecutorStandardImpl.list(JdbcSelectExecutorStandardImpl.java:91)
+	at org.hibernate.sql.exec.spi.JdbcSelectExecutor.list(JdbcSelectExecutor.java:31)
+	at org.hibernate.query.sql.internal.NativeSelectQueryPlanImpl.performList(NativeSelectQueryPlanImpl.java:105)
+	at org.hibernate.query.sql.internal.NativeQueryImpl.doList(NativeQueryImpl.java:602)
+	at org.hibernate.query.spi.AbstractSelectionQuery.list(AbstractSelectionQuery.java:363)
+	at org.hibernate.query.Query.getResultList(Query.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:401)
+	at jdk.proxy2/jdk.proxy2.$Proxy179.getResultList(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:127)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:148)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:77)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 28 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "link_info.link" does not exist
+  Позиция: 18
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2676)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2366)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:356)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:496)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:413)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:134)
+	at org.hibernate.sql.results.jdbc.internal.DeferredResultSetAccess.executeQuery(DeferredResultSetAccess.java:217)
+	... 63 common frames omitted
+2023-05-09 14:56:50,440 INFO l.database [main] Set default schema name to public
+2023-05-09 14:56:51,076 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:56:52,199 INFO l.changelog [main] Creating database history table with name: public.databasechangelog
+2023-05-09 14:56:52,453 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:56:52,808 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:56:52,816 INFO l.changelog [main] ChangeSet link-info-schema.sql::23::admin ran successfully in 130ms
+2023-05-09 14:56:53,229 INFO l.changelog [main] Custom SQL executed
+2023-05-09 14:56:53,234 INFO l.changelog [main] ChangeSet link-info-insert.sql::23::admin ran successfully in 194ms
+2023-05-09 14:56:53,333 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:56:54,285 INFO l.database [main] Set default schema name to public
+2023-05-09 14:56:54,477 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:56:54,983 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:56:55,279 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:56:55,838 INFO l.database [main] Set default schema name to public
+2023-05-09 14:56:56,043 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:56:56,404 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:56:56,560 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:56:57,089 INFO l.database [main] Set default schema name to public
+2023-05-09 14:56:57,384 INFO l.lockservice [main] Successfully acquired change log lock
+2023-05-09 14:57:03,662 INFO l.changelog [main] Reading from public.databasechangelog
+2023-05-09 14:57:03,947 INFO l.lockservice [main] Successfully released change log lock
+2023-05-09 14:57:05,059 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'

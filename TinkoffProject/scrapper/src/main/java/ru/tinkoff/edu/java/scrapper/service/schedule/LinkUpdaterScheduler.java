@@ -1,9 +1,11 @@
 package ru.tinkoff.edu.java.scrapper.service.schedule;
 
+import java.time.OffsetDateTime;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.jetbrains.annotations.Nullable;
-import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import ru.tinkoff.edu.java.parser.Parser;
@@ -21,15 +23,10 @@ import ru.tinkoff.edu.java.scrapper.service.SendMessageService;
 import ru.tinkoff.edu.java.scrapper.service.client.GitHubClient;
 import ru.tinkoff.edu.java.scrapper.service.client.StackOverflowClient;
 
-import java.time.OffsetDateTime;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 @Slf4j
 @Component
 @RequiredArgsConstructor
-public class LinkUpdaterScheduler{
+public class LinkUpdaterScheduler {
     private final LinkService linkService;
     private final GitHubClient gitHubClient;
     private final StackOverflowClient stackOverflowClient;
@@ -112,8 +109,10 @@ public class LinkUpdaterScheduler{
                 .build());
     }
 
-    private Map<String, String> getGitHubChanges(GitHubUpdatesDto updates,
-                                                 GitHubRepositoryInfoResponse response) {
+    private Map<String, String> getGitHubChanges(
+            GitHubUpdatesDto updates,
+            GitHubRepositoryInfoResponse response
+    ) {
         Map<String, String> changes = new HashMap<>();
         if (response.getWatchers() > updates.getWatchers()) {
             changes.put("watchers", "+" + (response.getWatchers() - updates.getWatchers()));
@@ -124,8 +123,10 @@ public class LinkUpdaterScheduler{
         return changes;
     }
 
-    private Map<String, String> getStackOverflowChanges(StackOverflowUpdatesDto updates,
-                                                        StackOverflowQuestionInfoResponse response) {
+    private Map<String, String> getStackOverflowChanges(
+            StackOverflowUpdatesDto updates,
+            StackOverflowQuestionInfoResponse response
+    ) {
         Integer answerCount = response.getItems()
                 .stream()
                 .map(StackOverflowQuestionInfoResponse.Items::getAnswerCount)

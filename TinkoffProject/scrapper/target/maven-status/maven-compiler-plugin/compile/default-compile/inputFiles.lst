@@ -12,6 +12,7 @@ D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkof
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\response\GitHubRepositoryInfoResponse.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\schedule\Schedule.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\configuration\access\AccessType.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\configuration\access\HttpAccessConfig.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\repository\jpa\JpaLinkRepository.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\entity\GitHubUpdates.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\jpa\JpaLinkService.java
@@ -27,6 +28,7 @@ D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkof
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\jpa\JpaTgChatService.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\mapper\ChatMapper.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\pojos\GithubUpdates.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\rabbit\ScrapperQueueProducer.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\entity\Chat.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\response\LinkResponse.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\repository\jpa\JpaTgChatRepository.java
@@ -40,6 +42,8 @@ D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkof
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcLinksService.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\request\AddLinkRequest.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\response\StackOverflowQuestionInfoResponse.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\configuration\RabbitMQConfig.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\SendMessageService.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\TgChatController.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\response\ListTgChatResponse.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\records\ChatRecord.java
@@ -53,6 +57,7 @@ D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkof
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\repository\jdbc\JdbcLinkUpdatesRepository.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\Links.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\Keys.java
+D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\configuration\access\RabbitQueueAccessConfig.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\Tables.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\repository\LinkRepository.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\Chat.java
@@ -75,6 +80,5 @@ D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkof
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\exception\DataAlreadyExistException.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\dto\LinkResponseDto.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\repository\jdbc\JdbcLinkRepository.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\jooq\JooqLinkService.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\StackOverflowTestController.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcTgChatService.java

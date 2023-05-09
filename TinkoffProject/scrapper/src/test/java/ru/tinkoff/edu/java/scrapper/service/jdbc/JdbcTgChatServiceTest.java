@@ -1,5 +1,11 @@
 package ru.tinkoff.edu.java.scrapper.service.jdbc;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.List;
 import liquibase.Contexts;
 import liquibase.LabelExpression;
 import liquibase.Liquibase;
@@ -14,7 +20,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.test.annotation.Rollback;
+import org.springframework.test.context.DynamicPropertyRegistry;
+import org.springframework.test.context.DynamicPropertySource;
 import org.springframework.transaction.annotation.Transactional;
 import ru.tinkoff.edu.java.scrapper.container.IntegrationEnvironment;
 import ru.tinkoff.edu.java.scrapper.exception.DataAlreadyExistException;
@@ -22,19 +29,12 @@ import ru.tinkoff.edu.java.scrapper.exception.DataNotFoundException;
 import ru.tinkoff.edu.java.scrapper.model.response.TgChatResponse;
 import ru.tinkoff.edu.java.scrapper.repository.jdbc.JdbcTgChatRepository;
 import ru.tinkoff.edu.java.scrapper.service.TgChatService;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.util.List;
-
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.assertAll;
 
 @SpringBootTest
+@Transactional
 class JdbcTgChatServiceTest extends IntegrationEnvironment {
     @Value("${spring.datasource.url}")
     private String url;
@@ -44,6 +44,11 @@ class JdbcTgChatServiceTest extends IntegrationEnvironment {
     private String password;
     private TgChatService tgChatService;
     private JdbcTemplate jdbcTemplate;
+
+    @DynamicPropertySource
+    static void datasourceProperties(DynamicPropertyRegistry registry) {
+        registry.add("app.database-access-type", () -> "jdbc");
+    }
 
     @BeforeEach
     void setUp() {
@@ -59,7 +64,8 @@ class JdbcTgChatServiceTest extends IntegrationEnvironment {
                     new DirectoryResourceAccessor(new File("").toPath()
                             .toAbsolutePath()
                             .getParent()
-                            .resolve("migrations")), database);
+                            .resolve("migrations")), database
+            );
             liquibase.update(new Contexts(), new LabelExpression());
         } catch (LiquibaseException | SQLException | FileNotFoundException e) {
             throw new RuntimeException(e);
@@ -67,8 +73,6 @@ class JdbcTgChatServiceTest extends IntegrationEnvironment {
     }
 
     @Test
-    @Transactional
-    @Rollback
     void registerChat_shouldThrowDataAlreadyExistException() {
         assertAll(
                 () -> assertThatThrownBy(() -> tgChatService.registerChat(6633L))
@@ -77,15 +81,15 @@ class JdbcTgChatServiceTest extends IntegrationEnvironment {
     }
 
     @Test
-    @Transactional
-    @Rollback
     void registerChat_shouldAddToDb() {
         Long addedTgChatId = 123L;
 
         TgChatResponse tgChatResponse = tgChatService.registerChat(addedTgChatId);
-        Long response = jdbcTemplate.queryForObject("SELECT * FROM link_info.chat WHERE chat_id=?",
+        Long response = jdbcTemplate.queryForObject(
+                "SELECT * FROM link_info.chat WHERE chat_id=?",
                 Long.class,
-                addedTgChatId);
+                addedTgChatId
+        );
 
         assertAll(
                 () -> assertThat(response).isNotNull()
@@ -97,8 +101,6 @@ class JdbcTgChatServiceTest extends IntegrationEnvironment {
     }
 
     @Test
-    @Transactional
-    @Rollback
     void removeChat_shouldThrowDataNotFoundException() {
         assertAll(
                 () -> assertThatThrownBy(() -> tgChatService.removeChat(1000L))
@@ -107,8 +109,6 @@ class JdbcTgChatServiceTest extends IntegrationEnvironment {
     }
 
     @Test
-    @Transactional
-    @Rollback
     void removeChat_shouldReturnExpectedResponse() {
         Long removedChatId = 333L;
 

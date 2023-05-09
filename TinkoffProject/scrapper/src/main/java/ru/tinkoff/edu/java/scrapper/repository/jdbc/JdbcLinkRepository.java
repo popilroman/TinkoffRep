@@ -30,7 +30,9 @@ public class JdbcLinkRepository implements ru.tinkoff.edu.java.scrapper.reposito
                 "SELECT ?,?,? " +
                 "WHERE NOT EXISTS(" +
                 "SELECT url FROM link_info.link WHERE chat_id=? AND url=?)";
-
+        String type = request.getLink()
+                .getHost()
+                .split("\\.")[0];
         String url = request.getLink()
                 .toString();
 
@@ -38,7 +40,7 @@ public class JdbcLinkRepository implements ru.tinkoff.edu.java.scrapper.reposito
         jdbcTemplate.update(connection -> {
             PreparedStatement ps = connection.prepareStatement(query, new String[]{"id"});
             ps.setString(1, url);
-            ps.setString(2, request.getType());
+            ps.setString(2, type);
             ps.setLong(3, tgChatId);
             ps.setLong(4, tgChatId);
             ps.setString(5, url);

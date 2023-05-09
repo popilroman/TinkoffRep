@@ -10,7 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import ru.tinkoff.edu.java.scrapper.service.TgChatService;
-import ru.tinkoff.edu.java.scrapper.service.jdbc.JdbcTgChatService;
 
 @RestController
 @RequiredArgsConstructor

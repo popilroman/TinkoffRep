@@ -12,8 +12,8 @@ import ru.tinkoff.edu.java.scrapper.model.response.LinkResponse;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-05-06T12:18:52+0500",
-    comments = "version: 1.5.4.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
+    date = "2023-05-09T14:47:11+0500",
+    comments = "version: 1.5.4.Final, compiler: javac, environment: Java 17.0.6 (Oracle Corporation)"
 )
 @Component
 public class LinkMapperImpl implements LinkMapper {

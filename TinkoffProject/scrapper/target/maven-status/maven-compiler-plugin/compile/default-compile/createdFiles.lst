@@ -1,6 +1,5 @@
 ru\tinkoff\edu\java\scrapper\repository\TgChatRepository.class
 ru\tinkoff\edu\java\scrapper\controller\Links.class
-ru\tinkoff\edu\java\scrapper\service\jooq\JooqLinkService.class
 ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcLinksService.class
 ru\tinkoff\edu\java\scrapper\ScrapperApplication.class
 ru\tinkoff\edu\java\scrapper\model\response\ListTgChatResponse$ListTgChatResponseBuilder.class

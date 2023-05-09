@@ -1,4 +1,5 @@
 ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcLinksServiceTest.class
+ru\tinkoff\edu\java\scrapper\service\jpa\JpaLinkServiceTest.class
 ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcTgChatServiceTest.class
 ru\tinkoff\edu\java\scrapper\container\IntegrationEnvironment.class
-ru\tinkoff\edu\java\scrapper\container\ContainerTest.class
+ru\tinkoff\edu\java\scrapper\service\jpa\JpaTgChatServiceTest.class
