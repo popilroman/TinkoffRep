@@ -129,7 +129,7 @@ class JdbcLinksServiceTest extends IntegrationEnvironment {
     void removeLink_shouldThrowDataNotFoundException() {
         RemoveLinkRequest request = RemoveLinkRequest.builder()
                 .link(URI.create(
-                        "https://github.com/Gadetych/tinkoff-project/pull/5"))
+                        "https://github.com/popilroman/TinkoffRep/pull/5"))
                 .build();
         assertAll(
                 () -> assertThatThrownBy(() -> linkService.removeLink(99999L, request))
