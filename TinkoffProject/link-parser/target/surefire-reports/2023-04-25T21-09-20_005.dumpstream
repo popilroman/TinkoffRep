@@ -1,0 +1,5 @@
+# Created at 2023-04-25T21:09:30.859
+Boot Manifest-JAR contains absolute paths in classpath 'D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

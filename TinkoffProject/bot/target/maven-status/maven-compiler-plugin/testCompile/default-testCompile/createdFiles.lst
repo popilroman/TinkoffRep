@@ -1,2 +1,2 @@
-com\tinkoff\project\LinkCommandTest.class
-com\tinkoff\project\AppTest.class
+service\bot\BotStarterTest.class
+service\command\imp\ListCommandTest.class

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: service.bot.BotStarterTest
+-------------------------------------------------------------------------------
+<<<<<<< HEAD:TinkoffProject/bot/target/surefire-reports/com.tinkoff.project.LinkCommandTest.txt
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+=======
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.01 s - in service.bot.BotStarterTest
+>>>>>>> hw5:TinkoffProject/bot/target/surefire-reports/service.bot.BotStarterTest.txt
