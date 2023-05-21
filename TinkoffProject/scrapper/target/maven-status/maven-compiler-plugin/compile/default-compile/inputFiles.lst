@@ -1,21 +1,8 @@
-<<<<<<< HEAD
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\StackOverflowClientImpl.java
-<<<<<<< HEAD
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\storages\LinkStorage.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\ScrapperDataBaseController.java
-=======
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\ScrapperHttpClient.java
->>>>>>> main
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\dto\AddLinkRequest.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\ScrapperLinksController.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\com\tinkoff\project\clients\configuration\ClientConfiguration.java
-=======
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\service\client\StackOverflowClient.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\GitHubTestController.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\exception\BadRequestException.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\response\ListLinksResponse.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\model\request\LinkUpdateRequest.java
->>>>>>> hw5
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\ScrapperApplication.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\domain\jooq\link_info\tables\GithubUpdates.java
 D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\main\java\ru\tinkoff\edu\java\scrapper\controller\TgChat.java

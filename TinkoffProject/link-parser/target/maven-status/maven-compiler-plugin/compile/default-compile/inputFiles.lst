@@ -1,8 +1,8 @@
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\GitHubLinkParse.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\Parser.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\StackOverflowLinkParse.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\LinkParserApplication.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\LinkParse.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\GitHubResultRecord.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\ParseResult.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\StackOverflowResultRecord.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\LinkParserApplication.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\Parser.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\GitHubLinkParse.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\StackOverflowLinkParse.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\GitHubResultRecord.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\StackOverflowResultRecord.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\result\ParseResult.java
+C:\Java Development\TinkoffRep\TinkoffProject\link-parser\src\main\java\ru\tinkoff\edu\java\parser\links\LinkParse.java

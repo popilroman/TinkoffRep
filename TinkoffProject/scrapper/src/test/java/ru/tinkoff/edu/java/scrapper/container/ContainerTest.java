@@ -32,7 +32,7 @@ public class ContainerTest extends IntegrationEnvironment {
         try (Connection connection = DriverManager.getConnection(url, username, password);
              Database database = DatabaseFactory.getInstance()
                      .findCorrectDatabaseImplementation(new JdbcConnection(connection))) {
-            Liquibase liquibase = new liquibase.Liquibase("master.xml",
+            Liquibase liquibase = new Liquibase("master.xml",
                     new DirectoryResourceAccessor(new File("").toPath()
                             .toAbsolutePath()
                             .getParent()
