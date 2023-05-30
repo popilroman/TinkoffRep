@@ -1,5 +1,7 @@
 package ru.tinkoff.edu.java.scrapper.service.jpa;
 
+import java.time.OffsetDateTime;
+import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.transaction.annotation.Transactional;
 import ru.tinkoff.edu.java.scrapper.domain.entity.Chat;
@@ -26,9 +28,6 @@ import ru.tinkoff.edu.java.scrapper.repository.jpa.JpaStackOverflowUpdatesReposi
 import ru.tinkoff.edu.java.scrapper.repository.jpa.JpaTgChatRepository;
 import ru.tinkoff.edu.java.scrapper.service.LinkService;
 
-import java.time.OffsetDateTime;
-import java.util.List;
-
 @RequiredArgsConstructor
 public class JpaLinkService implements LinkService {
     private final JpaLinkRepository linkRepository;
@@ -52,16 +51,20 @@ public class JpaLinkService implements LinkService {
                 .ifPresent(it -> {
                     throw new DataAlreadyExistException(
                             "Ссылка: " + request.getLink()
-                                    .toString() + " уже существует у пользователя с id=" +
-                                    tgChatId);
+                                    .toString() + " уже существует у пользователя с id="
+                                    + tgChatId);
                 });
+        String host = request.getLink()
+                .getHost()
+                .split("\\.")[0];
+
         Link savedLink = linkRepository.save(Link.builder()
                 .url(request.getLink()
                         .toString())
-                .type(request.getType())
+                .type(host)
                 .chat(foundChat)
                 .build());
-        addUpdatesByLinkType(request, savedLink.getId());
+        addUpdatesByLinkType(host, savedLink.getId());
         return linkMapper.linkToLinkResponse(savedLink);
     }
 
@@ -198,12 +201,12 @@ public class JpaLinkService implements LinkService {
 //        jdbcTemplate.update(query, response.getForksCount(), response.getWatchers(), id);
     }
 
-    private void addUpdatesByLinkType(AddLinkRequest request, Long linkId) {
-        switch (request.getType()) {
+    private void addUpdatesByLinkType(String host, Long linkId) {
+        switch (host) {
             case "github" -> gitHubUpdatesRepository.save(GitHubUpdates.builder()
                     .id(linkId)
                     .build());
-            case "stack" -> stackOverflowUpdatesRepository.save(StackOverflowUpdates.builder()
+            case "stackoverflow" -> stackOverflowUpdatesRepository.save(StackOverflowUpdates.builder()
                     .id(linkId)
                     .build());
             default -> throw new DataNotFoundException("Updates for link with id=" + linkId + " not found");

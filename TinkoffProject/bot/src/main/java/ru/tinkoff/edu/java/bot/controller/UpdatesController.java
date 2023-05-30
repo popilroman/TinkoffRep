@@ -11,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import ru.tinkoff.edu.java.bot.model.request.LinkUpdateRequest;
-import ru.tinkoff.edu.java.bot.service.UpdateService;
 import ru.tinkoff.edu.java.bot.service.update.ScrapperUpdates;
 
 @Slf4j
@@ -26,7 +25,8 @@ public class UpdatesController implements Updates{
                     required = true,
                     schema = @Schema())
             @Valid
-            @RequestBody LinkUpdateRequest body) {
+            @RequestBody LinkUpdateRequest body
+    ) {
         updateService.receiver(body);
         return new ResponseEntity<>(HttpStatus.OK);
     }

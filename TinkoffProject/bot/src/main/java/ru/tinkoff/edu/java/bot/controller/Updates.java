@@ -38,5 +38,6 @@ public interface Updates {
                     schema = @Schema())
             @Valid
             @RequestBody
-            LinkUpdateRequest body);
+            LinkUpdateRequest body
+    );
 }
