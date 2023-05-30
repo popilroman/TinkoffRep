@@ -1,11 +1,11 @@
-META-INF\spring.components
 ru\tinkoff\edu\java\bot\model\response\ListLinksResponse$ListLinksResponseBuilder.class
 ru\tinkoff\edu\java\bot\service\client\ScrapperClient.class
 ru\tinkoff\edu\java\bot\controller\UpdatesController.class
 ru\tinkoff\edu\java\bot\service\commands\impl\ListCommand.class
+ru\tinkoff\edu\java\bot\configuration\RabbitMQConfig.class
 ru\tinkoff\edu\java\bot\model\response\LinkResponse.class
 ru\tinkoff\edu\java\bot\service\commands\CommandList.class
-META-INF\spring-configuration-metadata.json
+ru\tinkoff\edu\java\bot\service\rabbit\ScrapperQueueListener.class
 ru\tinkoff\edu\java\bot\model\response\LinkResponse$LinkResponseBuilder.class
 ru\tinkoff\edu\java\bot\configuration\BeanConfig.class
 ru\tinkoff\edu\java\bot\model\response\ApiErrorResponse.class
@@ -21,6 +21,7 @@ ru\tinkoff\edu\java\bot\service\commands\impl\UnknownCommand.class
 ru\tinkoff\edu\java\bot\configuration\ApplicationConfig.class
 ru\tinkoff\edu\java\bot\model\request\AddLinkRequest$AddLinkRequestBuilder.class
 ru\tinkoff\edu\java\bot\model\request\AddLinkRequest.class
+ru\tinkoff\edu\java\bot\service\update\ScrapperUpdates.class
 ru\tinkoff\edu\java\bot\service\bot\BotStarter.class
 ru\tinkoff\edu\java\bot\service\commands\impl\UntrackCommand.class
 ru\tinkoff\edu\java\bot\controller\Updates.class
@@ -35,4 +36,5 @@ ru\tinkoff\edu\java\bot\exception\BadRequestException.class
 ru\tinkoff\edu\java\bot\configuration\SwaggerConfig.class
 ru\tinkoff\edu\java\bot\model\request\LinkUpdateRequest$LinkUpdateRequestBuilder.class
 ru\tinkoff\edu\java\bot\service\LinkService.class
+ru\tinkoff\edu\java\bot\service\UpdateService.class
 ru\tinkoff\edu\java\bot\model\response\ApiErrorResponse$ApiErrorResponseBuilder.class

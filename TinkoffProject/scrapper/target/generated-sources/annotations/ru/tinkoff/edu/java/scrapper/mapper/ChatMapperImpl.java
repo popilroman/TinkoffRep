@@ -9,8 +9,8 @@ import ru.tinkoff.edu.java.scrapper.model.response.TgChatResponse;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-05-30T15:55:50+0500",
-    comments = "version: 1.5.4.Final, compiler: javac, environment: Java 17.0.7 (Oracle Corporation)"
+    date = "2023-05-06T12:18:52+0500",
+    comments = "version: 1.5.4.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
 )
 @Component
 public class ChatMapperImpl implements ChatMapper {
