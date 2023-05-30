@@ -1,8 +1,6 @@
 package ru.tinkoff.edu.java.bot.model.request;
 
 import lombok.*;
-
-import java.util.List;
 import java.util.Map;
 
 
