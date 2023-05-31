@@ -1,4 +1,5 @@
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcTgChatServiceTest.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\container\IntegrationEnvironment.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcLinksServiceTest.java
-D:\BackendDev Tinkoff\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\container\ContainerTest.java
+C:\Учеба\Java Development\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcTgChatServiceTest.java
+C:\Учеба\Java Development\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\service\jpa\JpaLinkServiceTest.java
+C:\Учеба\Java Development\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\service\jdbc\JdbcLinksServiceTest.java
+C:\Учеба\Java Development\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\service\jpa\JpaTgChatServiceTest.java
+C:\Учеба\Java Development\TinkoffRep\TinkoffProject\scrapper\src\test\java\ru\tinkoff\edu\java\scrapper\container\IntegrationEnvironment.java
